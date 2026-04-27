@@ -1,0 +1,8 @@
+# Core: AI transcription engine (wraps CTranslate2 + OpenAI Whisper weights)
+faster-whisper>=1.0.0
+
+# GUI toolkit  (pin to 4.x — free / no licence required)
+PySimpleGUI>=4.60.4,<5.0
+
+# Drag-and-drop support (optional but recommended on Windows)
+tkinterdnd2>=0.3.0
